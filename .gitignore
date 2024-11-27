@@ -1,0 +1,18 @@
+# Exclude virtual environments
+venv/
+
+# Exclude Python cache files
+__pycache__/
+*.py[cod]
+
+# Other Python-related exclusions
+*.pyo
+*.pyd
+.Python
+
+# Byte-compiled files
+*.pyc
+
+# Disable pythorch models, they are too big
+*.pth
+
